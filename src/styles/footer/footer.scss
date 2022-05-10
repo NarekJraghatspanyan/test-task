@@ -1,0 +1,23 @@
+.footer {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%);
+
+  svg {
+    font-size: 15px;
+    line-height: 15px;
+    margin-bottom: 4px;
+    margin-right: 3px;
+  }
+
+  p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $primary-color;
+    letter-spacing: 0.4px;
+    @include p-mini;
+  }
+}

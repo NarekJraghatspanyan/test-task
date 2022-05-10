@@ -1,0 +1,19 @@
+.dashboard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  h2 {
+    margin: 56px 0 6px 0;
+    font-size: 40px;
+    line-height: 32px;
+    color: $blue-dark;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: normal;
+    font-family: "Montserrat",sans-serif;
+  }
+  .loginButton {
+    text-align: center;
+  }
+}

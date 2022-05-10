@@ -1,0 +1,53 @@
+.header-title {
+  justify-content: flex-start !important;
+  padding: 16px 36px !important;
+
+  h3 {
+    @include h3;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: $blue-dark;
+  }
+}
+
+.box-border {
+  background: $white;
+  border: 1px solid $grey-light;
+  border-radius: 4px;
+  margin: 0 36px;
+  padding: 16px 20px 24px 20px;
+  max-width: 1480px;
+  display: flex;
+
+  .card-title {
+    font-weight: bold;
+    color: $blue-dark;
+    margin-bottom: 18px;
+  }
+
+  > div:first-child {
+    border-right: 1px solid $grey-light;
+    padding-right: 20px;
+  }
+
+  > div:nth-child(2) {
+    padding-left: 20px;
+  }
+
+  .box-col-3:first-child {
+    border-right: unset;
+    padding-right: 0;
+  }
+}
+
+.box-border#work-logs {
+  padding: 16px 10px 24px 10px;
+
+  .card-title {
+    margin-left: 10px;
+  }
+}
+
+.card-title {
+  @include card-title;
+}

@@ -1,0 +1,1 @@
+export const BaseUrl="https://azapp-playground-demo-api.azurewebsites.net/api/";

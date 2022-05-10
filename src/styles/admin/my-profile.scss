@@ -1,0 +1,76 @@
+.my-profile {
+  height: 100vh;
+
+  h2 {
+    margin: 56px 0 6px 0;
+    font-size: 40px;
+    line-height: 32px;
+    color: $blue-dark;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: normal;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .loginButton {
+    text-align: center;
+  }
+
+  .MuiSvgIcon-root {
+    color: $blue-dark
+  }
+
+  .my-profile-info-col {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+  }
+
+  .my-profile-account-col {
+    width: 100%;
+  }
+
+  .box-col-1 {
+    max-width: 1095px;
+    width: 100%;
+  }
+
+  .box-col-2 {
+    max-width: 384px;
+    width: 100%;
+  }
+
+  .box-col-3 {
+    width: 100%;
+
+    #time {
+      width: 100%;
+    }
+  }
+
+  .my-profile-work-log-col {
+    display: flex;
+
+    > div {
+      width: 20%;
+      margin: 0 10px;
+
+      p {
+        @include p;
+        padding-bottom: 10px;
+        border-bottom: 2px solid rgba($grey-border, 0.1);
+        margin-bottom: 16px;
+        color: $grey-border;
+        font-weight: bold;
+
+        + div {
+          margin: 0 !important;
+          width: 100%;
+        }
+      }
+    }
+
+  }
+
+}

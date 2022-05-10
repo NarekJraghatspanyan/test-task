@@ -1,0 +1,56 @@
+#login {
+  display: flex;
+  align-items: center;
+
+  .rightSide {
+    width: 100%;
+    text-align: center;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+  }
+
+  .rightSide {
+    padding: 0 115px;
+    justify-content: flex-start;
+  }
+
+
+  .login-form {
+    text-align: left;
+    font-weight: 500;
+    color: $blue-dark;
+    width: 370px;
+    h3 {
+      @include h3;
+    }
+    .MuiFormControl-root.MuiTextField-root {
+      margin: 0!important;
+    }
+  }
+}
+
+
+@media (max-width: 1200px) {
+  #login {
+    .rightSide {
+      padding: 0 0 0 50px;
+      justify-content: center;
+    }
+  }
+
+}
+
+@media (max-width: 992px) {
+  #login {
+    .rightSide {
+      width: 100%;
+      padding: 0;
+    }
+
+    .login-form {
+      width: 80%;
+    }
+  }
+}

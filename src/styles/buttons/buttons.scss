@@ -1,0 +1,30 @@
+.loginButton {
+  text-align: right;
+
+  button {
+    margin-top: 24px;
+    @include button-blue;
+  }
+}
+
+.loginLogOut {
+  text-align: center;
+
+  button {
+    margin-top: 24px;
+    @include button-blue-transparent;
+  }
+}
+
+.transparentButton {
+  text-align: center;
+
+  button {
+    margin-top: 12px;
+    @include transparent-button;
+
+    svg {
+      color: $primary-color !important;
+    }
+  }
+}

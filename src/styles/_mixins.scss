@@ -1,0 +1,67 @@
+@mixin button-blue {
+  padding: 9px 16px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  align-items: center;
+  letter-spacing: 1.25px;
+  text-transform: uppercase;
+  color: $white;
+  background: $blue-dark;
+  border-radius: 4px;
+  border: 1px solid $blue-dark;
+  &:hover {
+    box-shadow: 0px 2px 4px 0px #3c4067;
+  }
+}
+
+@mixin button-blue-transparent {
+  padding: 9px 16px;
+  font-size: 14px;
+  line-height: 18px;
+  align-items: center;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  color: $blue-dark;
+  background: transparent;
+  font-weight: bold;
+}
+
+@mixin transparent-button {
+  padding: 9px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  justify-content: center;
+  border: 1px solid transparent;
+  color: $blue-dark;
+  background: $grey-middle;
+  font-weight: bold;
+  width: 100%;
+  border-radius: 4px;
+}
+
+@mixin card-title {
+  font-size: 20px;
+  line-height: 32px;
+}
+
+@mixin h3 {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+@mixin p-max {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+@mixin p {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+@mixin p-mini {
+  font-size: 12px;
+  line-height: 15px;
+}
